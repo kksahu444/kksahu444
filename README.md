@@ -244,21 +244,6 @@ Founding tech team. A 4-stage <b>FastAPI</b> pipeline turning raw Sentinel-1 SAR
 
 ---
 
-## 🏅 Selected Achievements
-
-<div align="center">
-
-| | |
-|---|---|
-| 🥉 | **Bronze Medal, Data Analytics** — Inter-Hall General Championship 2026, building a GenAI analytics platform for Frammer AI |
-| 🥇 | **1st of 200** — Competitive Programming, Kshitij 2025, IIT Kharagpur |
-| 🚀 | **Accenture Innovation Challenge 2026** — Team Dominator, ControlPlane.ai |
-| 📈 | **Open Soft, GC 2026** — Synthetic-Bull: a C++ matching engine on a price-time priority book, fed by GBM markets and an Avellaneda-Stoikov market-making bot, with a React 19 terminal across 11 Docker services |
-
-</div>
-
----
-
 ## 📊 Developer Metrics
 
 <div align="center">
@@ -274,14 +259,6 @@ Founding tech team. A 4-stage <b>FastAPI</b> pipeline turning raw Sentinel-1 SAR
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=kksahu444&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="Activity graph" />
 
-</div>
-
----
-
-## 🏆 Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kksahu444&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" alt="Trophies" />
 </div>
 
 ---
