@@ -23,9 +23,9 @@
 
 **I build the layer most people import.**
 
-Lock-free ring buffers, `epoll` event loops, B+ Trees, WAL recovery, matching engines — and the
-FastAPI services and PyTorch adapters that sit on top of them. I care about the number after the
-benchmark, and about whether that number was measured honestly.
+Lock-free ring buffers, `epoll` event loops, B+ Trees, WAL recovery, matching engines, and the
+FastAPI services and PyTorch adapters that sit on top of them. Every performance number in my
+repos comes with the command that produced it.
 
 <br/>
 
@@ -41,9 +41,9 @@ benchmark, and about whether that number was measured honestly.
 
 | | |
 |---|---|
-| 🎓 | **ML Research Intern → BTP** under Prof. Adway Mitra, Dept. of AI, IIT Kharagpur — crop prediction from geospatial polygons, and parameter-efficient fine-tuning implemented from scratch |
-| 🛡️ | Building **[ControlPlane.ai](https://github.com/kksahu444/controlplane)** — warrant-based quality assurance for LLM guardrails (Accenture Innovation Challenge 2026) |
-| ⚡ | Maintaining **[HTN](https://github.com/kksahu444/htn)** and **[Femto](https://github.com/kksahu444/femto)** — low-latency systems in C11 / C++20 |
+| 🎓 | **ML Research Intern** under Prof. Adway Mitra, Dept. of AI, IIT Kharagpur. Crop prediction from geospatial polygons, and parameter-efficient fine-tuning implemented from scratch |
+| 🛡️ | Building **[ControlPlane.ai](https://github.com/kksahu444/controlplane)**: warrant-based quality assurance for LLM guardrails (Accenture Innovation Challenge 2026) |
+| ⚡ | Maintaining **[HTN](https://github.com/kksahu444/htn)** and **[Femto](https://github.com/kksahu444/femto)**: low-latency systems in C11 / C++20 |
 | 📚 | Deep in Linux internals: `io_uring`, memory ordering, allocator design, and where tail latency actually comes from |
 
 ---
@@ -75,7 +75,7 @@ benchmark, and about whether that number was measured honestly.
 | Category | Stack |
 |---|---|
 | **Frameworks** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) |
-| **PEFT** | ![LoRA](https://img.shields.io/badge/LoRA-EE4C2C?style=flat-square) ![DoRA](https://img.shields.io/badge/DoRA-EE4C2C?style=flat-square) ![IA3](https://img.shields.io/badge/IA3-EE4C2C?style=flat-square) ![AdaLoRA](https://img.shields.io/badge/AdaLoRA-EE4C2C?style=flat-square) — *implemented from scratch as `nn.Module`s* |
+| **PEFT** | ![LoRA](https://img.shields.io/badge/LoRA-EE4C2C?style=flat-square) ![DoRA](https://img.shields.io/badge/DoRA-EE4C2C?style=flat-square) ![IA3](https://img.shields.io/badge/IA3-EE4C2C?style=flat-square) ![AdaLoRA](https://img.shields.io/badge/AdaLoRA-EE4C2C?style=flat-square) *implemented from scratch as `nn.Module`s* |
 | **LLM Systems** | ![Quantization](https://img.shields.io/badge/NF4_Quantization-7C3AED?style=flat-square) ![Probes](https://img.shields.io/badge/Activation_Probes-7C3AED?style=flat-square) ![Guardrails](https://img.shields.io/badge/Guardrail_Evaluation-7C3AED?style=flat-square) ![Presidio](https://img.shields.io/badge/PII_Detection-7C3AED?style=flat-square) |
 | **LLMOps** | ![Langfuse](https://img.shields.io/badge/Langfuse-0A0A0A?style=flat-square) ![Helicone](https://img.shields.io/badge/Helicone-FF6B35?style=flat-square) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white) ![Cost Governance](https://img.shields.io/badge/Cost_Governance-10B981?style=flat-square) |
 
@@ -101,7 +101,7 @@ benchmark, and about whether that number was measured honestly.
 <h3 align="center">⚡ Femto</h3>
 <p align="center"><i>Nanosecond-class limit order book & matching engine</i></p>
 <p align="center">
-Gateway, sequencer, matcher, publisher, journaling and snapshot recovery — a full exchange core in <b>C++20</b>, built around <code>io_uring</code> ingress and lock-free SPSC pipelines with no allocation on the hot path.
+Gateway, sequencer, matcher, publisher, journaling and snapshot recovery. A full exchange core in <b>C++20</b>, built around <code>io_uring</code> ingress and lock-free SPSC pipelines with no allocation on the hot path.
 </p>
 <p align="center">
 <img src="https://img.shields.io/badge/C++20-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
@@ -170,7 +170,7 @@ A self-contained <b>C++17</b> SQL optimizer: custom parser, heuristic rewrites, 
 <h3 align="center">🛡️ ControlPlane.ai</h3>
 <p align="center"><i>Warrant-based QA for LLM guardrails</i></p>
 <p align="center">
-Issues time-bounded, bootstrap-CI certificates for detectors — and <b>refuses to issue one when the evidence does not support it</b>. Validated a last-token activation probe on Qwen2.5-7B NF4 at <b>0.8256 AUROC</b>, and lifted Hinglish PII recall from <b>0.12 to 0.79</b> over stock Presidio at a 0.00 false-positive rate.
+Issues time-bounded, bootstrap-CI certificates for detectors, and <b>refuses to issue one when the evidence does not support it</b>. Validated a last-token activation probe on Qwen2.5-7B NF4 at <b>0.8256 AUROC</b>, and lifted Hinglish PII recall from <b>0.12 to 0.79</b> over stock Presidio at a 0.00 false-positive rate.
 </p>
 <p align="center">
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
@@ -186,7 +186,7 @@ Issues time-bounded, bootstrap-CI certificates for detectors — and <b>refuses 
 <h3 align="center">💸 CrashLens</h3>
 <p align="center"><i>Open-source CLI for LLM cost governance</i></p>
 <p align="center">
-Co-founded. A YAML policy engine with <b>12 match operators</b> and AND/OR/NOT composition, four waste detectors (retry loop, fallback storm, fallback failure, model overkill), and PII redaction across 8 entity types at <b>100% data locality</b> — nothing leaves the machine. Shipped on PyPI under <b>786 tests</b>.
+Co-founded. A YAML policy engine with <b>12 match operators</b> and AND/OR/NOT composition, four waste detectors (retry loop, fallback storm, fallback failure, model overkill), and PII redaction across 8 entity types at <b>100% data locality</b>. Nothing leaves the machine. Shipped on PyPI under <b>786 tests</b>.
 </p>
 <p align="center">
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
@@ -219,7 +219,7 @@ A <code>select()</code>-multiplexed <b>C</b> mail server holding <b>100+ concurr
 <h3 align="center">🛰️ EarthSat SAR Pipeline</h3>
 <p align="center"><i>Sentinel-1 SAR to 3D terrain, in 16.3 s</i></p>
 <p align="center">
-Founding tech team. A 4-stage <b>FastAPI</b> pipeline turning raw Sentinel-1 SAR into DEM, DSM, DTM and textured 3D meshes end to end. Cut per-request download <b>97% — 5 GB to 120 MB</b> — by extracting only the burst intersecting the customer's geo-fence.
+Founding tech team. A 4-stage <b>FastAPI</b> pipeline turning raw Sentinel-1 SAR into DEM, DSM, DTM and textured 3D meshes end to end. Cut per-request download <b>97%, 5 GB to 120 MB</b>, by extracting only the burst intersecting the customer's geo-fence.
 </p>
 <p align="center">
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
@@ -237,9 +237,9 @@ Founding tech team. A 4-stage <b>FastAPI</b> pipeline turning raw Sentinel-1 SAR
 ## 💼 Experience
 
 <table>
-<tr><td width="22%"><b>Jun 2026 — Present</b></td><td><b>ML Research Intern → BTP</b><br/>SRIC · Prof. Adway Mitra, Dept. of AI, IIT Kharagpur<br/><sub>7-stage FastAPI service turning a drawn map polygon into a crop prediction · LoRA, DoRA, IA3 and AdaLoRA implemented from scratch as PyTorch <code>nn.Module</code>s, lifting unseen-year accuracy <b>29 points at 20 labels</b> · 65 pytest cases · PostGIS and Qdrant kept non-critical behind an LRU cache</sub></td></tr>
-<tr><td><b>Jan 2026 — Apr 2026</b></td><td><b>Software Engineer Intern</b> · Founding Tech Team<br/>EarthSat Technologies, Kolkata<br/><sub>SAR-to-3D-terrain pipeline in 16.3 s end to end · 4 satellite archives over OAuth2 and OData · streamed 5 GB SLC scenes in 1 MB chunks · Next.js + React Three Fiber viewer exporting OBJ, GLB and print-ready STL</sub></td></tr>
-<tr><td><b>Jul 2025 — Dec 2025</b></td><td><b>Co-Founder & Engineer</b><br/>CrashLens — open-source LLM cost governance<br/><sub>YAML policy engine, 4 waste detectors, 8 PII entity types redacted at full data locality · <code>crashlens</code> v2.20 on PyPI under 786 tests · CI gated on P95/P99 deviation, 11 Prometheus metrics</sub></td></tr>
+<tr><td width="22%"><b>Jun 2026 to Present</b></td><td><b>ML Research Intern</b><br/>SRIC · Prof. Adway Mitra, Dept. of AI, IIT Kharagpur<br/><sub>7-stage FastAPI service turning a drawn map polygon into a crop prediction · LoRA, DoRA, IA3 and AdaLoRA implemented from scratch as PyTorch <code>nn.Module</code>s, lifting unseen-year accuracy <b>29 points at 20 labels</b> · 65 pytest cases · PostGIS and Qdrant kept non-critical behind an LRU cache</sub></td></tr>
+<tr><td><b>Jan 2026 to Apr 2026</b></td><td><b>Software Engineer Intern</b> · Founding Tech Team<br/>EarthSat Technologies, Kolkata<br/><sub>SAR-to-3D-terrain pipeline in 16.3 s end to end · 4 satellite archives over OAuth2 and OData · streamed 5 GB SLC scenes in 1 MB chunks · Next.js + React Three Fiber viewer exporting OBJ, GLB and print-ready STL</sub></td></tr>
+<tr><td><b>Jul 2025 to Dec 2025</b></td><td><b>Co-Founder & Engineer</b><br/>CrashLens, open-source LLM cost governance<br/><sub>YAML policy engine, 4 waste detectors, 8 PII entity types redacted at full data locality · <code>crashlens</code> v2.20 on PyPI under 786 tests · CI gated on P95/P99 deviation, 11 Prometheus metrics</sub></td></tr>
 </table>
 
 ---
