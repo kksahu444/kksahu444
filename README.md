@@ -18,13 +18,13 @@
 
 | Project | What it is |
 |---|---|
+| **[controlplane](https://github.com/kksahu444/controlplane)** | Warrant-based QA for LLM guardrails. 0.8256 AUROC activation probe on Qwen2.5-7B, Hinglish PII recall 0.12 to 0.79 over stock Presidio |
+| **[crashlens](https://pypi.org/project/crashlens/)** | LLM cost-governance CLI on PyPI: YAML policy engine, 4 waste detectors, 786 tests |
+| **[simplemail](https://github.com/kksahu444/simplemail)** | `select()`-multiplexed C mail server holding 100+ concurrent clients in one process |
 | **[femto](https://github.com/kksahu444/femto)** | Nanosecond-class limit order book and matching engine in C++20: gateway, sequencer, matcher, journaling, snapshot recovery |
 | **[htn](https://github.com/kksahu444/htn)** | Share-nothing epoll TCP server in C11. 200K req/s across 1200 connections at 7.7 µs server-side p99, clean under ASan, UBSan, TSan and Helgrind |
 | **[mini-sql-engine](https://github.com/kksahu444/mini-sql-engine)** | SQL engine in C++17: LRU-K buffer pool, B+ Tree over 8 KB pages, ARIES WAL, MVCC snapshot isolation |
 | **[Query_optimizer](https://github.com/kksahu444/Query_optimizer)** | C++17 SQL optimizer with a System-R dynamic-programming join enumerator and an embedded plan viewer |
-| **[controlplane](https://github.com/kksahu444/controlplane)** | Warrant-based QA for LLM guardrails. 0.8256 AUROC activation probe on Qwen2.5-7B, Hinglish PII recall 0.12 to 0.79 over stock Presidio |
-| **[crashlens](https://pypi.org/project/crashlens/)** | LLM cost-governance CLI on PyPI: YAML policy engine, 4 waste detectors, 786 tests |
-| **[simplemail](https://github.com/kksahu444/simplemail)** | `select()`-multiplexed C mail server holding 100+ concurrent clients in one process |
 
 ### Experience
 
