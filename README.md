@@ -28,8 +28,8 @@
 
 ### Experience
 
-- **ML Research Intern**, Prof. Adway Mitra, Dept. of AI, IIT Kharagpur. LoRA, DoRA, IA3 and AdaLoRA implemented from scratch as PyTorch modules, lifting unseen-year accuracy 29 points at 20 labels.
-- **Software Engineer Intern**, founding tech team at EarthSat. Sentinel-1 SAR to textured 3D terrain in 16.3 s, cutting per-request download 97%.
+- **ML Research Intern**, Prof. Adway Mitra, Dept. of AI, IIT Kharagpur. Developed a Web-Based System for Mapping of Farmlands and Crop Prediction from Satellite Imagery
+- **Software Engineer Intern**, founding tech team at EarthSat. Sentinel-1/2 SAR and Optical to textured 3D terrain in 16.3 s, cutting per-request download 97%.
 - **Co-Founder**, CrashLens. Open-source LLM cost governance, shipped to PyPI.
 
 ### Stack
